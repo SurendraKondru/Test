@@ -8,7 +8,7 @@ public class OptionalExample {
         // beforeJava8();
         afterJava8();
 
-        printTestMessage("Raja");
+        printTestMessage();
     }
 
     public static void beforeJava8() {
@@ -33,9 +33,8 @@ public class OptionalExample {
 
     }
 
-    public static void printTestMessage(String name) {
-        Optional.ofNullable(name)
-                .ifPresent(personName -> System.out.println("Good Morning - " + personName));
+    public static void printTestMessage() {
+        System.out.println("This is a test message for pull request");
     }
 
 }
