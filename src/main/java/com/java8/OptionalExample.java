@@ -27,6 +27,7 @@ public class OptionalExample {
 
         Optional<String> valueOf = Optional.ofNullable(str[7]);
         System.out.println(valueOf);
+        System.out.println("End of the program");
 
     }
 
