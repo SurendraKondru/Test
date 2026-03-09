@@ -29,6 +29,7 @@ public class FindLongestString {
 
     public static String findSecondLongestString(String[] str) {
 
+        System.out.println("Test Message");
         return Arrays.stream(str)
                 // .sorted(Comparator.comparingInt(String::length).reversed())
                 .sorted((s1, s2) -> s2.length() - s1.length())
